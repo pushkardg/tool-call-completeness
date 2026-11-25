@@ -1,0 +1,127 @@
+{
+  "per_boundary": {
+    "B1_before_dispatch": {
+      "LOGS": {
+        "false_safe_rate": 0.0,
+        "ambiguous_correctly_flagged_rate": null,
+        "retry_rate": 1.0,
+        "duplicate_effect_rate_no_exec_idem": 0.0,
+        "duplicate_effect_rate_with_exec_idem": 0.0
+      },
+      "CHECKPOINT": {
+        "false_safe_rate": 0.0,
+        "ambiguous_correctly_flagged_rate": null,
+        "retry_rate": 1.0,
+        "duplicate_effect_rate_no_exec_idem": 0.0,
+        "duplicate_effect_rate_with_exec_idem": 0.0
+      },
+      "LEDGER": {
+        "false_safe_rate": 0.0,
+        "ambiguous_correctly_flagged_rate": null,
+        "retry_rate": 1.0,
+        "duplicate_effect_rate_no_exec_idem": 0.0,
+        "duplicate_effect_rate_with_exec_idem": 0.0
+      }
+    },
+    "B2_dispatch_before_sent": {
+      "LOGS": {
+        "false_safe_rate": 0.0,
+        "ambiguous_correctly_flagged_rate": 0.6185,
+        "retry_rate": 1.0,
+        "duplicate_effect_rate_no_exec_idem": 0.494,
+        "duplicate_effect_rate_with_exec_idem": 0.0
+      },
+      "CHECKPOINT": {
+        "false_safe_rate": 0.0,
+        "ambiguous_correctly_flagged_rate": 1.0,
+        "retry_rate": 1.0,
+        "duplicate_effect_rate_no_exec_idem": 0.5045,
+        "duplicate_effect_rate_with_exec_idem": 0.0
+      },
+      "LEDGER": {
+        "false_safe_rate": 0.0,
+        "ambiguous_correctly_flagged_rate": 1.0,
+        "retry_rate": 1.0,
+        "duplicate_effect_rate_no_exec_idem": 0.5,
+        "duplicate_effect_rate_with_exec_idem": 0.0
+      }
+    },
+    "B3_sent_before_ack": {
+      "LOGS": {
+        "false_safe_rate": 0.0,
+        "ambiguous_correctly_flagged_rate": 0.808,
+        "retry_rate": 1.0,
+        "duplicate_effect_rate_no_exec_idem": 0.9515,
+        "duplicate_effect_rate_with_exec_idem": 0.0
+      },
+      "CHECKPOINT": {
+        "false_safe_rate": 0.0,
+        "ambiguous_correctly_flagged_rate": 1.0,
+        "retry_rate": 1.0,
+        "duplicate_effect_rate_no_exec_idem": 0.949,
+        "duplicate_effect_rate_with_exec_idem": 0.0
+      },
+      "LEDGER": {
+        "false_safe_rate": 0.0,
+        "ambiguous_correctly_flagged_rate": 1.0,
+        "retry_rate": 1.0,
+        "duplicate_effect_rate_no_exec_idem": 0.959,
+        "duplicate_effect_rate_with_exec_idem": 0.0
+      }
+    },
+    "B5_effect_before_result_persist": {
+      "LOGS": {
+        "false_safe_rate": 0.0,
+        "ambiguous_correctly_flagged_rate": null,
+        "retry_rate": 1.0,
+        "duplicate_effect_rate_no_exec_idem": 1.0,
+        "duplicate_effect_rate_with_exec_idem": 0.0
+      },
+      "CHECKPOINT": {
+        "false_safe_rate": 0.0,
+        "ambiguous_correctly_flagged_rate": null,
+        "retry_rate": 1.0,
+        "duplicate_effect_rate_no_exec_idem": 1.0,
+        "duplicate_effect_rate_with_exec_idem": 0.0
+      },
+      "LEDGER": {
+        "false_safe_rate": 0.0,
+        "ambiguous_correctly_flagged_rate": null,
+        "retry_rate": 1.0,
+        "duplicate_effect_rate_no_exec_idem": 1.0,
+        "duplicate_effect_rate_with_exec_idem": 0.0
+      }
+    },
+    "B4_during_retry": {
+      "LOGS": {
+        "cross_attempt_linkage_rate": 0.0,
+        "duplicate_effect_rate_no_exec_idem": 0.2205,
+        "duplicate_effect_rate_with_exec_idem": 0.0
+      },
+      "CHECKPOINT": {
+        "cross_attempt_linkage_rate": 0.0,
+        "duplicate_effect_rate_no_exec_idem": 0.2365,
+        "duplicate_effect_rate_with_exec_idem": 0.0
+      },
+      "LEDGER": {
+        "cross_attempt_linkage_rate": 1.0,
+        "duplicate_effect_rate_no_exec_idem": 0.2515,
+        "duplicate_effect_rate_with_exec_idem": 0.0
+      }
+    }
+  },
+  "overhead": {
+    "LOGS": {
+      "durable_writes_per_attempt": 4,
+      "bytes_per_attempt_UNVERIFIED_ESTIMATE": 160
+    },
+    "CHECKPOINT": {
+      "durable_writes_per_attempt": 1,
+      "bytes_per_attempt_UNVERIFIED_ESTIMATE": 512
+    },
+    "LEDGER": {
+      "durable_writes_per_attempt": 6,
+      "bytes_per_attempt_UNVERIFIED_ESTIMATE": 576
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "single": {
+    "B1": {
+      "ledger=0_idemexec=0": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0295,
+        "n": 50
+      },
+      "ledger=0_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0296,
+        "n": 50
+      },
+      "ledger=1_idemexec=0": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0291,
+        "n": 50
+      },
+      "ledger=1_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0291,
+        "n": 50
+      }
+    },
+    "B2": {
+      "ledger=0_idemexec=0": {
+        "duplicate_rate": 1.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0301,
+        "n": 50
+      },
+      "ledger=0_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0357,
+        "n": 50
+      },
+      "ledger=1_idemexec=0": {
+        "duplicate_rate": 1.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0343,
+        "n": 50
+      },
+      "ledger=1_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0357,
+        "n": 50
+      }
+    },
+    "B3": {
+      "ledger=0_idemexec=0": {
+        "duplicate_rate": 1.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0305,
+        "n": 50
+      },
+      "ledger=0_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0305,
+        "n": 50
+      },
+      "ledger=1_idemexec=0": {
+        "duplicate_rate": 1.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0352,
+        "n": 50
+      },
+      "ledger=1_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0349,
+        "n": 50
+      }
+    },
+    "B5": {
+      "ledger=0_idemexec=0": {
+        "duplicate_rate": 1.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0329,
+        "n": 50
+      },
+      "ledger=0_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.033,
+        "n": 50
+      },
+      "ledger=1_idemexec=0": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 0.0,
+        "mean_attempt1_latency_s": 0.035,
+        "n": 50
+      },
+      "ledger=1_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 0.0,
+        "mean_attempt1_latency_s": 0.0359,
+        "n": 50
+      }
+    }
+  }
+}

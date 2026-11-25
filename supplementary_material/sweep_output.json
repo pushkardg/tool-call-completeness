@@ -1,0 +1,39 @@
+{
+  "p_flush_sweep": {
+    "0.25": {
+      "B2_ambiguous_flagged": 0.6625,
+      "B3_ambiguous_flagged": 0.7485,
+      "avg": 0.7055,
+      "source": "independently computed in this script"
+    },
+    "0.5": {
+      "B2_ambiguous_flagged": 0.6185,
+      "B3_ambiguous_flagged": 0.808,
+      "avg": 0.7133,
+      "source": "reused from table2_output.json (lifecycle_sim.py), not independently recomputed"
+    },
+    "0.75": {
+      "B2_ambiguous_flagged": 0.7535,
+      "B3_ambiguous_flagged": 0.944,
+      "avg": 0.8487,
+      "source": "independently computed in this script"
+    },
+    "1.0": {
+      "B2_ambiguous_flagged": 1.0,
+      "B3_ambiguous_flagged": 1.0,
+      "avg": 1.0,
+      "source": "independently computed in this script"
+    }
+  },
+  "effect_prob_sweep": {
+    "p2=0.3_p3=0.8": 0.557,
+    "p2=0.3_p3=0.95": 0.6202,
+    "p2=0.3_p3=0.99": 0.639,
+    "p2=0.5_p3=0.8": 0.6435,
+    "p2=0.5_p3=0.95": 0.7252,
+    "p2=0.5_p3=0.99": 0.7452,
+    "p2=0.7_p3=0.8": 0.766,
+    "p2=0.7_p3=0.95": 0.8135,
+    "p2=0.7_p3=0.99": 0.8383
+  }
+}

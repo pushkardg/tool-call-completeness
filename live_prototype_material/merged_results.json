@@ -1,0 +1,214 @@
+{
+  "single": {
+    "B1": {
+      "ledger=0_idemexec=0": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0218,
+        "n": 50
+      },
+      "ledger=0_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0218,
+        "n": 50
+      },
+      "ledger=1_idemexec=0": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0239,
+        "n": 50
+      },
+      "ledger=1_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0226,
+        "n": 50
+      }
+    },
+    "B2": {
+      "ledger=0_idemexec=0": {
+        "duplicate_rate": 1.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0235,
+        "n": 50
+      },
+      "ledger=0_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0238,
+        "n": 50
+      },
+      "ledger=1_idemexec=0": {
+        "duplicate_rate": 1.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0255,
+        "n": 50
+      },
+      "ledger=1_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0241,
+        "n": 50
+      }
+    },
+    "B3": {
+      "ledger=0_idemexec=0": {
+        "duplicate_rate": 1.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0243,
+        "n": 50
+      },
+      "ledger=0_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0247,
+        "n": 50
+      },
+      "ledger=1_idemexec=0": {
+        "duplicate_rate": 1.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.025,
+        "n": 50
+      },
+      "ledger=1_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0258,
+        "n": 50
+      }
+    },
+    "B5": {
+      "ledger=0_idemexec=0": {
+        "duplicate_rate": 1.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0246,
+        "n": 50
+      },
+      "ledger=0_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.0237,
+        "n": 50
+      },
+      "ledger=1_idemexec=0": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 0.0,
+        "mean_attempt1_latency_s": 0.026,
+        "n": 50
+      },
+      "ledger=1_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 0.0,
+        "mean_attempt1_latency_s": 0.0264,
+        "n": 50
+      }
+    }
+  },
+  "langgraph": {
+    "B1": {
+      "ledger=0_idemexec=0": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.5924,
+        "n": 10
+      },
+      "ledger=0_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.5711,
+        "n": 10
+      },
+      "ledger=1_idemexec=0": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.5837,
+        "n": 10
+      },
+      "ledger=1_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.6068,
+        "n": 10
+      }
+    },
+    "B2": {
+      "ledger=0_idemexec=0": {
+        "duplicate_rate": 1.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.589,
+        "n": 10
+      },
+      "ledger=0_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.5844,
+        "n": 10
+      },
+      "ledger=1_idemexec=0": {
+        "duplicate_rate": 1.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.578,
+        "n": 10
+      },
+      "ledger=1_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.586,
+        "n": 10
+      }
+    },
+    "B3": {
+      "ledger=0_idemexec=0": {
+        "duplicate_rate": 1.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.5604,
+        "n": 10
+      },
+      "ledger=0_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.6041,
+        "n": 10
+      },
+      "ledger=1_idemexec=0": {
+        "duplicate_rate": 1.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.5946,
+        "n": 10
+      },
+      "ledger=1_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.573,
+        "n": 10
+      }
+    },
+    "B5": {
+      "ledger=0_idemexec=0": {
+        "duplicate_rate": 1.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.5758,
+        "n": 10
+      },
+      "ledger=0_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.614,
+        "n": 10
+      },
+      "ledger=1_idemexec=0": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 0.0,
+        "mean_attempt1_latency_s": 0.5693,
+        "n": 10
+      },
+      "ledger=1_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 0.0,
+        "mean_attempt1_latency_s": 0.597,
+        "n": 10
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "langgraph": {
+    "B1": {
+      "ledger=0_idemexec=0": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.5924,
+        "n": 10
+      },
+      "ledger=0_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.5711,
+        "n": 10
+      },
+      "ledger=1_idemexec=0": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.5837,
+        "n": 10
+      },
+      "ledger=1_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.6068,
+        "n": 10
+      }
+    },
+    "B2": {
+      "ledger=0_idemexec=0": {
+        "duplicate_rate": 1.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.589,
+        "n": 10
+      },
+      "ledger=0_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.5844,
+        "n": 10
+      },
+      "ledger=1_idemexec=0": {
+        "duplicate_rate": 1.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.578,
+        "n": 10
+      },
+      "ledger=1_idemexec=1": {
+        "duplicate_rate": 0.0,
+        "retry_rate": 1.0,
+        "mean_attempt1_latency_s": 0.586,
+        "n": 10
+      }
+    }
+  }
+}
